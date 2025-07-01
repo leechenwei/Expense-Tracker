@@ -35,35 +35,43 @@ node -v
 npm -v
 java -version
 mvn -v
+```
 
-Core Technologies Used
-Backend
-Java 17
-Spring Boot 3
-Spring Security (with JWT)
-Spring Data JPA / Hibernate
-Maven
-H2 Database
-Frontend
-React 18 (with Hooks)
-React Router DOM
-Axios
-Bootstrap 5
-jwt-decode
+## Core Technologies Used
 
-Start up 
-Backend
+## Backend
+- Java 17
+- Spring Boot 3
+- Spring Security (with JWT)
+- Spring Data JPA / Hibernate
+- Maven
+- H2 Database
+
+## Frontend
+- React 18 (with Hooks)
+- React Router DOM
+- Axios
+- Bootstrap 5
+- jwt-decode
+
+## Start up Project
+
+## Backend
+```bash
 cd backend 
 mvn spring-boot:run
+```
 
-Frontend
+## Frontend
+```bash
 cd expense-tracker-frontend
 npm start
+```
 
-How to Use the Application
-Navigate to http://localhost:3000 in your browser.
-You will be redirected to the login page.
-Click on the "Sign Up" link to create a new account.
-After successful registration, you will be redirected back to the login page.
-Log in with your new credentials.
-You will be taken to the dashboard, where you can add, view, edit, and delete your expenses.
+## How to Use the Application
+- Navigate to http://localhost:3000 in your browser.
+- You will be redirected to the login page.
+- Click on the "Sign Up" link to create a new account.
+- After successful registration, you will be redirected back to the login page.
+- Log in with your new credentials.
+- You will be taken to the dashboard, where you can add, view, edit, and delete your expenses.
